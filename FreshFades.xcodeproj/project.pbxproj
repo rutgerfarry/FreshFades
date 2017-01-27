@@ -500,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A3D58B74F8978FCB3E7911D /* Pods-FreshFadesTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6QBR52NJ4V;
 				INFOPLIST_FILE = FreshFadesTests/Info.plist;
@@ -516,7 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86EDBAFA1EF4EDA314F4693F /* Pods-FreshFadesTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6QBR52NJ4V;
 				INFOPLIST_FILE = FreshFadesTests/Info.plist;
@@ -547,6 +547,7 @@
 				ACF8DC5A1E3B196400D4EC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF8DC5B1E3B196400D4EC8B /* Build configuration list for PBXNativeTarget "FreshFadesTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +556,7 @@
 				ACF8DC5D1E3B196400D4EC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
