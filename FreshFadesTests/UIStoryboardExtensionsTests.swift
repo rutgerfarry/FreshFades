@@ -7,4 +7,12 @@ class UIStoryboardExtensionsTests: XCTestCase {
         XCTAssertNotNil(UIStoryboard.schedule())
     }
     
+    func testProfileStoryboard() {
+        XCTAssertNotNil(UIStoryboard.profile())
+    }
+    
+    func testMusicStoryboard() {
+        XCTAssertNotNil(UIStoryboard.music())
+    }
+    
 }

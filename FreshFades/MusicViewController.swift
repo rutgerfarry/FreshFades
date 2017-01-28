@@ -1,11 +1,10 @@
 import UIKit
 
-class AppViewController: UIViewController {
+class MusicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
 
 }
-

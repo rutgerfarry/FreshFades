@@ -7,9 +7,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        let homeStoryboard = UIStoryboard.schedule()
-        let appViewController = homeStoryboard.instantiateInitialViewController() as? AppViewController
-        window?.rootViewController = appViewController
+        let tabBarController = UITabBarController()
+        let musicViewController = UIStoryboard.music().instantiateInitialViewController()!
+        let scheduleViewController = UIStoryboard.schedule().instantiateInitialViewController()!
+        let profileViewController = UIStoryboard.profile().instantiateInitialViewController()!
+        
+        
+        tabBarController.viewControllers = [
+            musicViewController,
+            scheduleViewController,
+            profileViewController
+        ]
+        
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
         
         return true
