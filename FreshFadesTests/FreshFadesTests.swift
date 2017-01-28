@@ -1,11 +1,3 @@
-//
-//  FreshFadesTests.swift
-//  FreshFadesTests
-//
-//  Created by Rutger Farry on 1/26/17.
-//  Copyright © 2017 Rutger Farry. All rights reserved.
-//
-
 import XCTest
 @testable import FreshFades
 
