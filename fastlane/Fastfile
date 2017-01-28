@@ -10,7 +10,8 @@ platform :ios do
   desc "Runs all the tests"
   lane :test do
     scan(
-      scheme: "FreshFades"
+      scheme: "FreshFades",
+      devices: ["iPhone 7"]
     )
   end
 end
