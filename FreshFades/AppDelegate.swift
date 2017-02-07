@@ -35,6 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             profileViewController
         ]
 
+        window!.tintColor = UIColor.Theme.tint
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
 
