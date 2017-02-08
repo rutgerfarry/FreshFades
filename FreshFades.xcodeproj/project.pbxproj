@@ -14,6 +14,7 @@
 		AC04EAEC1E4A79EF00CA2F3A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */; };
 		AC04EAED1E4A79EF00CA2F3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */; };
 		AC04EAEE1E4A79EF00CA2F3A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */; };
+		AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */; };
 		ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */; };
 		ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */; };
 		ACF8DC3F1E3B196400D4EC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 		AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicViewController.swift; path = "View Controllers/MusicViewController.swift"; sourceTree = "<group>"; };
 		AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "View Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
 		AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaircutCollectionViewCell.swift; sourceTree = "<group>"; };
 		ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		ACF8DC3B1E3B196400D4EC8B /* FreshFades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFades.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */,
 				AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */,
 				AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */,
+				AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */,
 				ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */,
 				ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */,
 				AC04EAEC1E4A79EF00CA2F3A /* MusicViewController.swift in Sources */,
