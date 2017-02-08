@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AC04EAE01E4A783400CA2F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */; };
-		AC04EAE41E4A786300CA2F3A /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAE11E4A786300CA2F3A /* ScheduleView.xib */; };
+		AC04EAE41E4A786300CA2F3A /* HaircutChoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAE11E4A786300CA2F3A /* HaircutChoiceView.xib */; };
 		AC04EAE51E4A786300CA2F3A /* MusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAE21E4A786300CA2F3A /* MusicView.xib */; };
 		AC04EAE61E4A786300CA2F3A /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAE31E4A786300CA2F3A /* ProfileView.xib */; };
 		AC04EAEC1E4A79EF00CA2F3A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */; };
 		AC04EAED1E4A79EF00CA2F3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */; };
-		AC04EAEE1E4A79EF00CA2F3A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */; };
+		AC04EAEE1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */; };
+		AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */; };
+		AC04EAF41E4ADA1B00CA2F3A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */; };
+		AC04EAF81E4ADADB00CA2F3A /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */; };
 		ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */; };
 		ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */; };
+		ACDF7E411E4AEDEA006B31B2 /* ConfirmAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF7E401E4AEDEA006B31B2 /* ConfirmAppointmentViewController.swift */; };
+		ACDF7E431E4AEE63006B31B2 /* ConfirmAppointmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDF7E421E4AEE63006B31B2 /* ConfirmAppointmentView.xib */; };
 		ACF8DC3F1E3B196400D4EC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */; };
 		ACF8DC461E3B196400D4EC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF8DC451E3B196400D4EC8B /* Assets.xcassets */; };
 		ACF8DC541E3B196400D4EC8B /* FreshFadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8DC531E3B196400D4EC8B /* FreshFadesTests.swift */; };
@@ -39,14 +44,19 @@
 		5A7C63D0D8933DE3CDA1D55A /* Pods-FreshFades.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshFades.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshFades/Pods-FreshFades.release.xcconfig"; sourceTree = "<group>"; };
 		86EDBAFA1EF4EDA314F4693F /* Pods-FreshFadesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshFadesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshFadesTests/Pods-FreshFadesTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = XIBs/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC04EAE11E4A786300CA2F3A /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleView.xib; path = XIBs/ScheduleView.xib; sourceTree = "<group>"; };
+		AC04EAE11E4A786300CA2F3A /* HaircutChoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HaircutChoiceView.xib; path = XIBs/HaircutChoiceView.xib; sourceTree = "<group>"; };
 		AC04EAE21E4A786300CA2F3A /* MusicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MusicView.xib; path = XIBs/MusicView.xib; sourceTree = "<group>"; };
 		AC04EAE31E4A786300CA2F3A /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileView.xib; path = XIBs/ProfileView.xib; sourceTree = "<group>"; };
 		AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicViewController.swift; path = "View Controllers/MusicViewController.swift"; sourceTree = "<group>"; };
 		AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "View Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
-		AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaircutChoiceViewController.swift; path = "View Controllers/HaircutChoiceViewController.swift"; sourceTree = "<group>"; };
+		AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaircutCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleView.xib; path = XIBs/ScheduleView.xib; sourceTree = "<group>"; };
 		ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		ACDF7E401E4AEDEA006B31B2 /* ConfirmAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmAppointmentViewController.swift; path = "View Controllers/ConfirmAppointmentViewController.swift"; sourceTree = "<group>"; };
+		ACDF7E421E4AEE63006B31B2 /* ConfirmAppointmentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConfirmAppointmentView.xib; path = XIBs/ConfirmAppointmentView.xib; sourceTree = "<group>"; };
 		ACF8DC3B1E3B196400D4EC8B /* FreshFades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF8DC451E3B196400D4EC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,10 +100,11 @@
 		AC04EAE71E4A789600CA2F3A /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				AC04EAE11E4A786300CA2F3A /* ScheduleView.xib */,
+				AC04EAE11E4A786300CA2F3A /* HaircutChoiceView.xib */,
 				AC04EAE21E4A786300CA2F3A /* MusicView.xib */,
 				AC04EAE31E4A786300CA2F3A /* ProfileView.xib */,
-				AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */,
+				AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */,
+				ACDF7E421E4AEE63006B31B2 /* ConfirmAppointmentView.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -101,9 +112,11 @@
 		AC04EAE81E4A79B900CA2F3A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */,
 				AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */,
 				AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */,
-				AC04EAEB1E4A79EF00CA2F3A /* ScheduleViewController.swift */,
+				AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */,
+				ACDF7E401E4AEDEA006B31B2 /* ConfirmAppointmentViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -136,6 +149,8 @@
 				ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */,
 				ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */,
 				ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */,
+				AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */,
+				AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */,
 				ACF8DC451E3B196400D4EC8B /* Assets.xcassets */,
 				ACF8DC4A1E3B196400D4EC8B /* Info.plist */,
 			);
@@ -257,8 +272,10 @@
 				AC04EAE51E4A786300CA2F3A /* MusicView.xib in Resources */,
 				ACF8DC461E3B196400D4EC8B /* Assets.xcassets in Resources */,
 				AC04EAE01E4A783400CA2F3A /* LaunchScreen.storyboard in Resources */,
+				ACDF7E431E4AEE63006B31B2 /* ConfirmAppointmentView.xib in Resources */,
+				AC04EAF81E4ADADB00CA2F3A /* ScheduleView.xib in Resources */,
 				AC04EAE61E4A786300CA2F3A /* ProfileView.xib in Resources */,
-				AC04EAE41E4A786300CA2F3A /* ScheduleView.xib in Resources */,
+				AC04EAE41E4A786300CA2F3A /* HaircutChoiceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +399,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */,
 				ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */,
 				ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */,
+				AC04EAF41E4ADA1B00CA2F3A /* ScheduleViewController.swift in Sources */,
 				AC04EAEC1E4A79EF00CA2F3A /* MusicViewController.swift in Sources */,
-				AC04EAEE1E4A79EF00CA2F3A /* ScheduleViewController.swift in Sources */,
+				ACDF7E411E4AEDEA006B31B2 /* ConfirmAppointmentViewController.swift in Sources */,
+				AC04EAEE1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift in Sources */,
 				AC04EAED1E4A79EF00CA2F3A /* ProfileViewController.swift in Sources */,
 				ACF8DC3F1E3B196400D4EC8B /* AppDelegate.swift in Sources */,
 			);

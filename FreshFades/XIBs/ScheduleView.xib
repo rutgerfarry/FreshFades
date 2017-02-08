@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScheduleViewController" customModule="FreshFades" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="iN0-l3-epB" id="FtN-ZY-WN2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="wex-dM-yfn"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -19,17 +19,26 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="schedule ⏰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzK-E7-oqj">
-                    <rect key="frame" x="139" y="323" width="97" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calendar 📆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKh-7S-AMC">
+                    <rect key="frame" x="140" y="323" width="94" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQE-nP-VPz">
+                    <rect key="frame" x="86" y="383" width="204" height="30"/>
+                    <state key="normal" title="make appointment in an hour!"/>
+                    <connections>
+                        <action selector="makeAppointmentInAnHourButtonPressed:" destination="-1" eventType="touchUpInside" id="7Le-Wc-0Pr"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="tzK-E7-oqj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="85q-nE-aDH"/>
-                <constraint firstItem="tzK-E7-oqj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TZk-Ev-oZ1"/>
+                <constraint firstItem="UQE-nP-VPz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1qj-m6-EZA"/>
+                <constraint firstItem="SKh-7S-AMC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="S7D-VB-2Vs"/>
+                <constraint firstItem="UQE-nP-VPz" firstAttribute="top" secondItem="SKh-7S-AMC" secondAttribute="bottom" constant="39" id="opf-cu-tA7"/>
+                <constraint firstItem="SKh-7S-AMC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="v5X-4s-dTf"/>
             </constraints>
         </view>
     </objects>
