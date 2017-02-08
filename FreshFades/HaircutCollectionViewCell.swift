@@ -27,7 +27,7 @@ class HaircutCollectionViewCell: UICollectionViewCell {
                                                height: 20))
 
         super.init(frame: frame)
-        
+
         contentView.addSubview(imageView)
         contentView.addSubview(leftTextLabel)
         contentView.addSubview(rightTextLabel)

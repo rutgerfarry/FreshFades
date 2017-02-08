@@ -15,6 +15,8 @@
 		AC04EAED1E4A79EF00CA2F3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */; };
 		AC04EAEE1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */; };
 		AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */; };
+		AC04EAF41E4ADA1B00CA2F3A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */; };
+		AC04EAF81E4ADADB00CA2F3A /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */; };
 		ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */; };
 		ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */; };
 		ACF8DC3F1E3B196400D4EC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */; };
@@ -47,6 +49,8 @@
 		AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "View Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
 		AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaircutChoiceViewController.swift; path = "View Controllers/HaircutChoiceViewController.swift"; sourceTree = "<group>"; };
 		AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaircutCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleView.xib; path = XIBs/ScheduleView.xib; sourceTree = "<group>"; };
 		ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		ACF8DC3B1E3B196400D4EC8B /* FreshFades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFades.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +99,7 @@
 				AC04EAE11E4A786300CA2F3A /* HaircutChoiceView.xib */,
 				AC04EAE21E4A786300CA2F3A /* MusicView.xib */,
 				AC04EAE31E4A786300CA2F3A /* ProfileView.xib */,
-				AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */,
+				AC04EAF71E4ADADB00CA2F3A /* ScheduleView.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -103,10 +107,10 @@
 		AC04EAE81E4A79B900CA2F3A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */,
 				AC04EAE91E4A79EF00CA2F3A /* MusicViewController.swift */,
 				AC04EAEA1E4A79EF00CA2F3A /* ProfileViewController.swift */,
-				AC04EAEB1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift */,
-				AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */,
+				AC04EAF31E4ADA1B00CA2F3A /* ScheduleViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -139,6 +143,8 @@
 				ACF8DC3E1E3B196400D4EC8B /* AppDelegate.swift */,
 				ACBC7CB71E3D47D00052C776 /* UIColorExtensions.swift */,
 				ACBC7CBC1E3D55CC0052C776 /* StringExtensions.swift */,
+				AC04EAEF1E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift */,
+				AC04EADF1E4A783400CA2F3A /* LaunchScreen.storyboard */,
 				ACF8DC451E3B196400D4EC8B /* Assets.xcassets */,
 				ACF8DC4A1E3B196400D4EC8B /* Info.plist */,
 			);
@@ -260,6 +266,7 @@
 				AC04EAE51E4A786300CA2F3A /* MusicView.xib in Resources */,
 				ACF8DC461E3B196400D4EC8B /* Assets.xcassets in Resources */,
 				AC04EAE01E4A783400CA2F3A /* LaunchScreen.storyboard in Resources */,
+				AC04EAF81E4ADADB00CA2F3A /* ScheduleView.xib in Resources */,
 				AC04EAE61E4A786300CA2F3A /* ProfileView.xib in Resources */,
 				AC04EAE41E4A786300CA2F3A /* HaircutChoiceView.xib in Resources */,
 			);
@@ -388,6 +395,7 @@
 				AC04EAF01E4AB3DC00CA2F3A /* HaircutCollectionViewCell.swift in Sources */,
 				ACBC7CB81E3D47D00052C776 /* UIColorExtensions.swift in Sources */,
 				ACBC7CBD1E3D55CC0052C776 /* StringExtensions.swift in Sources */,
+				AC04EAF41E4ADA1B00CA2F3A /* ScheduleViewController.swift in Sources */,
 				AC04EAEC1E4A79EF00CA2F3A /* MusicViewController.swift in Sources */,
 				AC04EAEE1E4A79EF00CA2F3A /* HaircutChoiceViewController.swift in Sources */,
 				AC04EAED1E4A79EF00CA2F3A /* ProfileViewController.swift in Sources */,

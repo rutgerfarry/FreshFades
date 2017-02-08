@@ -45,4 +45,9 @@ extension HaircutChoiceViewController: UICollectionViewDataSource, UICollectionV
         return cell
     }
 
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let scheduleViewController = ScheduleViewController()
+        navigationController?.pushViewController(scheduleViewController, animated: true)
+    }
+
 }
