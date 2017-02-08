@@ -1,6 +1,6 @@
 import UIKit
 
-class ScheduleViewController: UIViewController {
+class HaircutChoiceViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
 
@@ -27,7 +27,7 @@ class ScheduleViewController: UIViewController {
 
 }
 
-extension ScheduleViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+extension HaircutChoiceViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 3

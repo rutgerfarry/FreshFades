@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
 
         let musicViewController = MusicViewController()
-        let scheduleViewController = ScheduleViewController()
+        let haircutChoiceViewController = HaircutChoiceViewController()
         let profileViewController = ProfileViewController()
 
         musicViewController.tabBarItem = UITabBarItem(
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             image: #imageLiteral(resourceName: "music_tab_bar"),
             tag: 0)
 
-        scheduleViewController.tabBarItem = UITabBarItem(
+        haircutChoiceViewController.tabBarItem = UITabBarItem(
             title: "Schedule",
             image: #imageLiteral(resourceName: "calendar_tab_bar"),
             tag: 1)
@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         tabBarController.viewControllers = [
             musicViewController,
-            scheduleViewController,
+            haircutChoiceViewController,
             profileViewController
         ]
 
