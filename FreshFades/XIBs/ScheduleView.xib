@@ -25,10 +25,19 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQE-nP-VPz">
+                    <rect key="frame" x="86" y="383" width="204" height="30"/>
+                    <state key="normal" title="make appointment in an hour!"/>
+                    <connections>
+                        <action selector="makeAppointmentInAnHourButtonPressed:" destination="-1" eventType="touchUpInside" id="7Le-Wc-0Pr"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="UQE-nP-VPz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1qj-m6-EZA"/>
                 <constraint firstItem="SKh-7S-AMC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="S7D-VB-2Vs"/>
+                <constraint firstItem="UQE-nP-VPz" firstAttribute="top" secondItem="SKh-7S-AMC" secondAttribute="bottom" constant="39" id="opf-cu-tA7"/>
                 <constraint firstItem="SKh-7S-AMC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="v5X-4s-dTf"/>
             </constraints>
         </view>
