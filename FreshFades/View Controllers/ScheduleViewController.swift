@@ -8,6 +8,9 @@ class ScheduleViewController: UIViewController {
                          "Line-up",
                          "Custom"
     ]
+    let haircutPrices = [23,
+                         15,
+                         30]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +39,8 @@ extension ScheduleViewController: UICollectionViewDataSource, UICollectionViewDe
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HaircutCollectionViewCell", for: indexPath)
         if let cell = cell as? HaircutCollectionViewCell {
             cell.image = #imageLiteral(resourceName: "yeezy")
-            cell.backgroundColor = .blue
+            cell.leftTextLabel.text = haircutStyles[indexPath.row]
+            cell.rightTextLabel.text = "$\(haircutPrices[indexPath.row])"
         }
         return cell
     }
