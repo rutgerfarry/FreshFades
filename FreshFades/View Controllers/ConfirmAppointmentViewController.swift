@@ -12,6 +12,7 @@ class ConfirmAppointmentViewController: UIViewController {
     init(date: Date) {
         self.date = date
         super.init(nibName: nil, bundle: nil)
+        title = "Schedule"
     }
 
     required init?(coder aDecoder: NSCoder) {
