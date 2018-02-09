@@ -1,9 +1,11 @@
 # FreshFades
 App for my [local barbershop](http://www.corvallisfreshfades.com/home) in Corvallis 💈
 ### Meta
-- **State:** development
+- **State:** archived
 - **Point people:** [@rutgerfarry](https://github.com/rutgerfarry)
 - **CI:** [![Build Status](https://travis-ci.org/rutgerfarry/FreshFades.svg?branch=master)](https://travis-ci.org/rutgerfarry/FreshFades)
+
+⚠️ **ARCHIVED:** Since I've left Corvallis, as far as I know, Fresh Fades has shut down (you can check the status of their website [here](http://www.corvallisfreshfades.com)). Therefore, this project is archived and no longer being maintained.
 
 FreshFades is a simple iOS app I'm making for my local barbershop in Corvallis, [Corvallis Fresh Fades](http://www.corvallisfreshfades.com/home). The main objective is to make it easy for customers to stay up to date with the barbershop and schedule appointments on their phone. 
 
